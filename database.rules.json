@@ -1,0 +1,20 @@
+{
+  "rules": {
+    ".read": "auth != null && (auth.uid === 'EwIVr4YbJoYz5nbzzavpqQqBywt2' || auth.uid === 'bi3c890VUXhVE0JFxroYfnlQwea2' || auth.uid === 'MdwxcdNtLgZp3cnYoqXBNkin8C82')",
+    ".write": "auth != null && (auth.uid === 'EwIVr4YbJoYz5nbzzavpqQqBywt2' || auth.uid === 'bi3c890VUXhVE0JFxroYfnlQwea2' || auth.uid === 'MdwxcdNtLgZp3cnYoqXBNkin8C82')",
+    "attendance": {
+      ".read": "auth != null && (auth.uid === 'EwIVr4YbJoYz5nbzzavpqQqBywt2' || auth.uid === 'bi3c890VUXhVE0JFxroYfnlQwea2' || auth.uid === 'MdwxcdNtLgZp3cnYoqXBNkin8C82' || auth.uid === '1LpJhzhc8zZa9IRNe4YWD2p7jbp1')",
+      ".write": "auth != null && (auth.uid === 'EwIVr4YbJoYz5nbzzavpqQqBywt2' || auth.uid === 'bi3c890VUXhVE0JFxroYfnlQwea2' || auth.uid === 'MdwxcdNtLgZp3cnYoqXBNkin8C82' || auth.uid === '1LpJhzhc8zZa9IRNe4YWD2p7jbp1')"
+    },
+    "students": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid"
+      }
+    },
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid"
+      }
+    }
+  }
+}

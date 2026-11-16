@@ -1,0 +1,8 @@
+{
+  "name": "Remix RFID Attendance Management Portal",
+  "description": "Real-time RFID attendance management dashboard powered by Firebase Authentication and Realtime Database.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
